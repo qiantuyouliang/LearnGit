@@ -1,0 +1,11 @@
+<!--*************** 板块栏******************-->
+<import src= "../../templates/FieldLable/FieldLable.wxml" />
+<template is ="FieldLable"></template>
+
+
+<!--*************** 帖子列表栏********************-->
+
+
+
+<!--***************底部导航栏********************-->
+<template is ="tabBar"></template>

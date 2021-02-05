@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/ershoushichang/ershoushichang",
+    "pages/index/index",
+    "pages/logs/logs",
+    
+    "pages/xiaoquguangchang/xiaoquguangchang",
+    "pages/jiaoyouxinxi/jiaoyouxinxi",
+    "pages/bianmindianhuabu/bianmindianhuabu",
+    "pages/me/me",
+    "pages/fatie/fatie",
+    "pages/login/login",
+    "pages/xiaoxi/xiaoxi",
+    "templates/FieldLable/FieldLable"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "诚园论坛",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/home1.png",
+        "selectedIconPath": "images/tabBar/home1_selected.png"
+      },
+      {
+        "pagePath": "pages/fatie/fatie",
+        "text": "发帖",
+        "iconPath": "images/tabBar/create.png",
+        "selectedIconPath": "images/tabBar/create_selected.png"
+      },
+      {
+        "pagePath": "pages/xiaoxi/xiaoxi",
+        "text": "消息",
+        "iconPath": "images/tabBar/message.png",
+        "selectedIconPath": "images/tabBar/message_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/tabBar/me.png",
+        "selectedIconPath": "images/tabBar/me_selected.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

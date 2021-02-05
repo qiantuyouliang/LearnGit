@@ -1,0 +1,121 @@
+/**index.wxss**/
+/************ 滚动栏********/
+.swiper{
+    padding:20rpx 20rpx 20rpx 20rpx;
+}
+
+.item-image{
+  width: 100%;
+  height: 300rpx;
+  background-color: yellowgreen;
+  border-radius: 20rpx;
+}
+
+.item-image image{
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+
+.item-all-board{
+  width: 100%;
+  height: 600rpx
+}
+
+
+/************** 版面图标栏**************/
+@import  "../../templates/FieldLable/FieldLable.wxss";
+
+
+/************** 帖子列表栏**************/
+.forum_group{
+  padding: 8rpx ;
+}
+.forum_group .forum{
+  width: 96%;
+  border-radius: 20rpx;
+  margin: 20rpx auto;
+ background-color: white;
+ padding: 24rpx;
+ box-sizing: border-box;
+  }
+.forum .userGroup{
+  display: flex;
+  border-radius: 20rpx;
+}
+
+.userGroup .writer-info{
+  flex: 1;
+  margin-left: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.writer-info .userName{
+  font-size:28rpx ;
+  color: #323232;
+}
+.writer-info .Detail{
+  font-size: 24rpx;
+  color: #656565;
+  display: flex;
+}
+.Detail .pubTime{
+  margin-right: 16rpx;
+}
+.userGroup .avatar{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.contentGroup{
+  padding: 16rpx;
+}
+
+.forum .forum_handle {
+  display: flex;
+font-size: 24rpx;
+padding: 8rpx;
+color: #656565;
+}
+
+.forum_handle image{
+width: 36rpx;
+height: 36rpx;
+margin-right: 16rpx;
+}
+
+.forum_handle view{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/********** searchGroup.wxss *******/
+.searchGroup{
+  width: 80%;
+  height: 60rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20rpx;
+  margin: 10rpx auto;
+  padding: 2rpx 20rpx;
+  background-color: #ffff;
+}
+
+.searchIcon{
+  flex-basis: 40rpx
+}
+.searchInput{
+  min-height: 52rpx;
+  height: 52rpx;
+  font-size: 28rpx;
+  flex: 1
+}
+
+.clearIcon{
+  flex-basis: 40rpx
+}

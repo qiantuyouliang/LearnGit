@@ -1,0 +1,16 @@
+<!--*************** 版块栏********************-->
+<import src= "../../templates/FieldLable/FieldLable.wxml" />
+<template is ="FieldLable"></template>
+
+
+<!--*************** 帖子列表栏********************-->
+<view class="item_all"  style = "margin-top :5px; ">
+    <button class="loading" loading>正在刷新...</button>
+    <view  style="height:400px; border-radius: 10px; ">
+          <view id="1" class='item'>这是第一条帖子</view>
+          <view wx:for="{{forums}}" class='item'>{{item}}</view>
+    </view>
+</view>
+
+<!--***************底部导航栏********************-->
+<template is ="tabBar"></template>

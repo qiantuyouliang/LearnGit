@@ -1,0 +1,7 @@
+<!--pages/fatie/fatie.wxml-->
+<view>
+  <form bindsubmit="submitEvent">
+    <textarea  name="content" placeholder="请输入内容"></textarea>
+    <button form-type="submit">发布</button> 
+  </form>
+</view>

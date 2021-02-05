@@ -1,0 +1,19 @@
+/* pages/login/login.wxss */
+.container{
+  padding: 0 40rpx;
+  margin-top: 100rpx;
+}
+.logoGroup image{
+  width: 240rpx;
+  height: 280rpx;
+}
+
+.tips{
+  margin: 30rpx;
+  color: #646464;
+}
+
+.container button{
+  width: 100%;
+  margin: 10rpx;
+}

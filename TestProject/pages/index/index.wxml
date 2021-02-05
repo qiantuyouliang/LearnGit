@@ -1,0 +1,71 @@
+<!--index.wxml-->
+
+<!--*************** 滚动栏********************-->
+<view class= "swiper">
+  <swiper class='item-image' autoplay indicator-dots indicator-color="grey" indicator-active-color="#fff" sytle='width:{{width*2}}rpx; height:{{height*2}}rpx'>
+    <swiper-item>
+    <image src="../../images/swiper-view/spring.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+    <image src="../../images/swiper-view/summer.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+    <image src="../../images/swiper-view/autumn.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+    <image src="../../images/swiper-view/winter.jpg"></image>
+    </swiper-item>
+  </swiper>
+</view>
+
+<!--*************** 版块栏********************-->
+<import src= "../../templates/FieldLable/FieldLable.wxml" />
+<template is ="FieldLable"></template>
+
+<view style="background-color: rgb(210, 221, 210);border-radius: 40rpx; padding: 10rpx 0rpx;">
+<!--*************** 搜索栏********************-->
+  <view class="searchGroup">
+    <icon type="search" class="searchIcon" size="40rpx"></icon>
+    <input class="searchInput" placeholder="搜索" value="{{value}}"></input>
+    <icon type="clear" class="clearIcon" size="40rpx" bind:tap="onClearEvent"></icon>
+  </view>
+
+
+<!--*************** 帖子列表栏********************-->
+<view class="forums_container"  style = "margin-top :10rpx; ">
+    <button class="loading" loading>正在刷新...</button>
+    <view  class="forum_group" style=" border-radius: 20rpx; ">
+      <view  class='forum'>
+        <view class="userGroup">
+          <image class="avatar" src="../../images/swiper-view/autumn.jpg"></image>
+          <view class="writer-info">
+            <view class="userName">我叫MK</view>
+            <view class="Detail">
+              <view class="pubTime">2021/1/25 19:56</view>
+              <view class="from">Huawei P40</view>
+            </view>  
+          </view>
+        </view>
+        <view class= "contentGroup">
+          这是第一条帖子
+          子曰：学而时习之，不亦说乎；人不知而不愠，不亦君子乎
+          山不在高有仙则名，水不在深有龙则灵
+          
+        </view>
+        <view class="forum_image_list"></view>
+        <view class="forum_handle">
+          <view class="comment_group">
+          <image src="../../images/comment.png"></image>
+          评论</view>
+          <view class="praise_group">
+          <image src="../../images/praise.png"></image>
+          点赞</view>
+        </view>
+      </view>
+      <view wx:for="{{forums}}" class='forum'>{{item}}</view>
+    </view>
+</view>
+
+
+</view>
+

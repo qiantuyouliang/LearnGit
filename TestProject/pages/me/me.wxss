@@ -1,0 +1,67 @@
+/* pages/me/me.wxss */
+.Mecontainer{
+ display: flex;
+ background-color: rgb(228, 224, 224);
+}
+.content{
+  width: 100%;
+}
+.userGroup{
+  width: 100%;
+  display: flex;
+  padding:80rpx 0rpx 20rpx 80rpx;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  background-color:white;
+}
+.userGroup .avatar{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  border: 2rpx solid gray;
+}
+.userGroup .user-info{
+  flex: 1;
+  margin: 34rpx 0rpx 34rpx 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-info .userNameAndGender{
+  display: flex;
+  font-size:32rpx;
+  font-weight: 700;
+  color: #323232 ;
+  align-content: center;
+}
+ .userNameAndGender image{
+  margin-left: 20rpx;
+  width: 60rpx;
+  height: 60rpx;
+}
+.user-info .userID{
+  font-size: 24rpx;
+  color: #656565;
+  display: flex;
+}
+
+.myForums{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30rpx 20rpx 20rpx 20rpx;
+  background-color: white;
+  text-align: center;
+  height: 100rpx;
+}
+
+.myForums image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.myForums .font{
+  font-size: 24rpx;
+  color: #8a8a8a;
+}

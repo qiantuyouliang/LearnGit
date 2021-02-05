@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="logoGroup">
+    <image src="../../images/me/UserLogo.jpg"></image>
+  </view>
+  <view class="tips">授权后，才可以使用其他功能哦~</view>
+  <button type="primary" open-type="getUserInfo" bindgetuserinfo="onGetUserInfoTab">授权</button>
+  <button type="default" bindtap="navigateBackIndex">返回</button>
+</view>

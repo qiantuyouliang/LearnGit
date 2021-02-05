@@ -1,0 +1,29 @@
+<!--pages/me/me.wxml-->
+<view class="Mecontainer">
+  <view class="content">
+        <view class="userGroup">
+                <image class="avatar" src="../../images/me/UserLogo.jpg"></image>
+                <view class="user-info">
+                  <view class="userNameAndGender">
+                    <view class="userName">我叫MK</view>
+                    <image class="userGender" src="../../images/me/gender.png"></image>
+                  </view>
+                  <view class="userID">Km2e22</view>
+                </view>
+        </view>
+        <view class="myForums">
+          <view class="ForumsCreated">
+            <image src="../../images/me/create.png"></image>
+            <view class="font">我的主题</view>
+          </view>
+          <view class="ForumsCommented">
+            <image src="../../images/me/comment.png"></image>
+            <view class="font">我的评论</view>
+          </view>
+          <view class="ForumsLikes">
+              <image src="../../images/me/like.png"></image>
+              <view class="font">我赞过的</view>
+          </view>
+        </view>       
+  </view>
+</view>

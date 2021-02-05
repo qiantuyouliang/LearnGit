@@ -1,0 +1,64 @@
+<!--templates/FieldLable/FieldLable.wxml-->
+<text>templates/FieldLable/FieldLable.wxml</text>
+<!--templates  FieldLable.wxml-->
+<template name = 'FieldLable'>
+<view class="FieldLable" >
+    <view class="FieldLableItem">
+      <navigator url="/pages/ershoushichang/ershoushichang" hover-class="none">
+        <image class="Icon" src="../../images/ershoushichang.png"></image>
+        <view class="IconText">二手市场</view>
+      </navigator>  
+    </view>
+    <view class="FieldLableItem">
+      <navigator url="/pages/xiaoquguangchang/xiaoquguangchang" hover-class="none">
+      <image class="Icon" src="../../images/xiaoquguangchang.png"></image>
+      <view class="IconText">小区广场</view>
+      </navigator>
+    </view>
+    <view class="FieldLableItem">
+      <navigator url="/pages/jiaoyouxinxi/jiaoyouxinxi" hover-class="none">
+      <image class="Icon" src="../../images/jiaoyouxinxi.png"></image>
+      <view class="IconText">交友信息</view>
+      </navigator>
+    </view>
+    <view class="FieldLableItem">
+    <navigator url="/pages/bianmindianhuabu/bianmindianhuabu" hover-class="none">
+      <image class="Icon" src="../../images/bianmindianhuabu.png"></image>
+      <view class="IconText">便民电话簿</view>
+    </navigator>
+    </view>
+</view>
+</template>
+
+
+
+
+<template name="tabBar">
+<view class="tabBar" >
+    <view class="tabBar-item">
+      <navigator url="../../pages/index/index" open-type="switchTab"   hover-class="none">
+        <image class="TabbarIcon" src="../../images/tabBar/home1.png"></image>
+        <view class="IconText">主页</view>
+      </navigator>  
+    </view>
+    <view class="tabBar-item">
+      <navigator url="../../pages/fatie/fatie" open-type="switchTab" hover-class="none">
+      <image class="TabbarIcon" src="../../images/tabBar/create.png"></image>
+      <view class="IconText">发帖</view>
+      </navigator>
+    </view>
+    <view class="tabBar-item">
+      <navigator url="../../pages/xiaoxi/xiaoxi" open-type="switchTab" hover-class="none">
+      <image class="TabbarIcon" src="../../images/tabBar/message.png"></image>
+      <view class="IconText">消息</view>
+      </navigator>
+    </view>
+    <view class="tabBar-item">
+    <navigator url="../../pages/me/me" open-type="switchTab" hover-class="none">
+      <image class="TabbarIcon" src="../../images/tabBar/me.png"></image>
+      <view class="IconText">我的</view>
+    </navigator>
+    </view>
+</view>
+</template>
+
