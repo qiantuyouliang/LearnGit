@@ -1,18 +1,35 @@
 /* pages/me/me.wxss */
 .Mecontainer{
- display: flex;
- background-color: rgb(228, 224, 224);
+  position: relative;
 }
 .content{
+  display: flex;
   width: 100%;
+  flex-direction: column;
 }
+
+.Header{
+  width: 100%;
+  height: 300rpx;
+}
+.Circle{
+  width: 3200rpx;
+  height: 3200rpx;
+  border-radius: 50%;
+  background-color:#1296db;
+  margin-left: -1225rpx;
+  margin-top:-2900rpx ;
+}
+
 .userGroup{
   width: 100%;
   display: flex;
-  padding:80rpx 0rpx 20rpx 80rpx;
   border-radius: 10rpx;
   box-sizing: border-box;
-  background-color:white;
+  position: absolute;
+  margin-top:50rpx ;
+  margin-left: 200rpx;
+  
 }
 .userGroup .avatar{
   width: 140rpx;
@@ -54,6 +71,8 @@
   background-color: white;
   text-align: center;
   height: 100rpx;
+  position: absolute;
+  margin-top:300rpx ;
 }
 
 .myForums image{
