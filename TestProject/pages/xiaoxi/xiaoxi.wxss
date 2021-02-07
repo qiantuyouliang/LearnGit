@@ -1,1 +1,14 @@
 /* pages/xiaoxi/xiaoxi.wxss */
+.return{
+  display: flex;
+  flex-direction:row ;
+  margin-bottom: 40rpx ;
+}
+.return image{
+  width: 50rpx;
+  height: 40rpx;
+}
+.return text{
+  font-size:28rpx ;
+  color:#8a8a8a;
+}

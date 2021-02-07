@@ -1,5 +1,9 @@
 <!--pages/ForumDetail/ForumDetail.wxml-->
 <view class="Container">
+    <view class="Return">
+      <image src="../../images/testPic/return.png"></image>
+      <text>返回</text>
+    </view>
     <view class="ForumTitle">次新车跳楼大甩卖</view>
     <view class="ForumCreatorInfo">
       <image src="../../images/testPic/header.jpg"></image>
@@ -10,7 +14,17 @@
       <view class="ForumTxt">18年6月入手，18000公里，次顶配，平时开的很少，保险已买，可刀</view>
       <view class="ForumImage">图片描述</view>
     </view>
-    <view class="ContactCreator">
-      联系他/她
-    </view>
 </view>
+<view class="BottomGroup">
+      <view class="BottomIcon">
+        <image src="../../images/testPic/comment.png"></image>
+        <text>评论</text>
+      </view>
+      <view class="ContactCreator" bindtap="ContactCreator">
+        联系他/她
+      </view>
+      <view class="BottomIcon">
+        <image src="../../images/testPic/share.png"></image>
+        <text>分享</text>
+      </view>
+    </view>

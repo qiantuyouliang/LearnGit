@@ -1,2 +1,6 @@
 <!--pages/xiaoxi/xiaoxi.wxml-->
+<view class="return" bindtap="">
+  <image src="../../images/testPic/return.png"></image>
+  <text>返回</text>
+</view>
 <view class="message-group">聊天消息界面</view>
