@@ -1,0 +1,67 @@
+/* pages/ForumDetail/ForumDetail.wxss */
+.Container{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 16rpx 16rpx 10rpx 16rpx;
+}
+.ForumTitle{
+  height: 70rpx;
+  padding: 4rpx 0rpx 2rpx 12rpx;
+  font-size:42rpx ;
+  font-weight: 550;
+}
+
+.ForumCreatorInfo{
+  display: flex;
+  padding: 4rpx 10rpx 10rpx 16rpx;
+}
+
+.ForumCreatorInfo image{
+  width: 46rpx;
+  height: 46rpx;
+  border-radius: 50%;
+}
+
+.ForumCreatorInfo .forum-creator-name{
+  font-size: 26rpx;
+  color: #656565;
+  font-weight: 500;
+  margin-right:10rpx; 
+  margin-left:10rpx ;
+}
+
+.ForumContent{
+  display: flex;
+  flex-direction: column;
+}
+ .Price{
+  height: 40rpx;
+  padding: 20rpx 0rpx 2rpx 16rpx;
+  font-size: 30rpx;
+  font-weight: 550;
+  color:red;
+}
+
+.ForumContent .ForumTxt{
+  padding: 5rpx 12rpx 5rpx 12rpx ;
+  font-size:28rpx ;
+}
+
+.ForumContent .ForumImage{
+  padding: 5rpx 12rpx 5rpx 12rpx ;
+  background:green ;
+}
+
+.ContactCreator{
+  width: 240rpx;
+  height: 56rpx;
+  font-size:36rpx ;
+  background-color:orange ;
+  border-radius: 32rpx;
+  text-align: center;
+  position: fixed;
+  right: 260rpx;
+  bottom: 30rpx;
+}

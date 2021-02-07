@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/ForumDetail/ForumDetail",
     "pages/ershoushichang/ershoushichang",
     "pages/index/index",
     "pages/logs/logs",
-    
     "pages/xiaoquguangchang/xiaoquguangchang",
     "pages/jiaoyouxinxi/jiaoyouxinxi",
     "pages/bianmindianhuabu/bianmindianhuabu",

@@ -1,0 +1,16 @@
+<!--pages/ForumDetail/ForumDetail.wxml-->
+<view class="Container">
+    <view class="ForumTitle">次新车跳楼大甩卖</view>
+    <view class="ForumCreatorInfo">
+      <image src="../../images/testPic/header.jpg"></image>
+      <view class="forum-creator-name">wojiaoMk</view>
+    </view>
+    <view class="ForumContent">
+      <view class="Price">¥100000</view>
+      <view class="ForumTxt">18年6月入手，18000公里，次顶配，平时开的很少，保险已买，可刀</view>
+      <view class="ForumImage">图片描述</view>
+    </view>
+    <view class="ContactCreator">
+      联系他/她
+    </view>
+</view>
