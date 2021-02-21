@@ -1,0 +1,85 @@
+<!--index.wxml-->
+<view class="container">
+
+<!--**** 滚动栏****-->
+  <view class= "swiper">
+    <swiper class='item-image' autoplay indicator-dots indicator-color="grey" indicator-active-color="#fff" sytle='width:{{width*2}}rpx; height:{{height*2}}rpx'>
+      <swiper-item>
+      <image src="../../images/swiper-view/spring.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+      <image src="../../images/swiper-view/summer.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+      <image src="../../images/swiper-view/autumn.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+      <image src="../../images/swiper-view/winter.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+<!--**** 版块栏****-->
+  <import src= "../template/template.wxml" />
+  <template is ="FieldLable"></template>
+
+<!--**** 帖子列表栏***-->
+  <view class="ForumsContainer" >
+    <view class="searchGroup">
+      <icon type="search" class="searchIcon" size="40rpx"></icon>
+      <input class="searchInput" placeholder="搜索" value="{{value}}"></input>
+      <icon type="clear" class="clearIcon" size="40rpx" bind:tap="onClearEvent"></icon>
+    </view>
+
+    <view class="ForumsBoard"  style = "margin-top:10rpx; ">
+        <button class="loading" loading>正在刷新...</button>
+        <view class="ForumSummary" id="1">
+          <view class="ForumSummaryLeft" >
+            <view class="ForumTitle">
+              小区物业太差劲了
+            </view>
+            <view class="ForumRel">
+              <view class="CreatorInfo">
+                <image src="../../images/TestPic/UserHeader.jpeg"></image>
+                <view class="CreatorName">wojiamMK</view>
+              </view>
+              <view class="ForumViewNub">阅读(121)</view>
+              <view class="ForumCommentNub">评论(23)</view>
+            </view>            
+          </view> 
+          <view class="ForumSummaryRight"> 
+            <image src="../../images/TestPic/wuye.jpg" mode="aspectFill"></image>
+          </view>
+        </view>
+        <view class="ForumSummary" id="2">
+          <view class="ForumSummaryLeft" >
+            <view class="ForumTitle">
+              垃圾分类是否真的有必要
+            </view>
+            <view class="CreatorInfo">
+              <image src="../../images/TestPic/UserHeader.jpeg"></image>
+            </view>
+          </view>
+          <view class="ForumSummaryRight">
+            <image src="../../images/TestPic/lajifenlei.jpg" mode="aspectFill"></image>
+          </view>
+        </view>
+        <view class="ForumSummary" id="3">
+          <view class="ForumSummaryLeft" >
+            <view class="ForumTitle">
+              垃圾分类是否真的有必要
+            </view>
+            <view class="CreatorInfo">
+              <image src="../../images/TestPic/UserHeader.jpeg"></image>
+            </view>
+          </view>
+          <view class="ForumSummaryRight">
+            <image src="../../images/TestPic/lajifenlei.jpg" mode="aspectFill"></image>
+          </view>
+        </view>
+    </view>
+
+
+  </view>
+
+</view>

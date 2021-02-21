@@ -1,0 +1,65 @@
+/* pages/Square/Square.wxss */
+@import  "../template/template.wxss";
+
+.searchGroup{
+  width: 80%;
+  height: 60rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20rpx;
+  margin: 10rpx auto;
+  padding: 2rpx 20rpx;
+  background-color: #ffff;
+  }
+  
+  .searchIcon{
+  flex-basis: 40rpx
+  }
+  .searchInput{
+  min-height: 52rpx;
+  height: 52rpx;
+  font-size: 28rpx;
+  flex: 1
+  }
+  
+  .clearIcon{
+  flex-basis: 40rpx
+  }
+  
+.ForumsList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ForumSummary{
+  width: 96%;
+  height: 200rpx;
+  box-sizing: border-box;
+  padding:10rpx;
+  margin-top: 10rpx;
+  background-color:white ;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 20rpx;
+}
+
+.ForumInfo{
+width: 70%;
+}
+
+.ForumTitle{
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.CreatorInfo image{
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+}
+
+.ForumImage image{
+  width: 200rpx;
+  height: 150rpx;
+}

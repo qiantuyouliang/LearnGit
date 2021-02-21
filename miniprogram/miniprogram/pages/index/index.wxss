@@ -1,0 +1,120 @@
+/**index.wxss**/
+/************** 图标栏**************/
+@import  "../template/template.wxss";
+
+/************ 滚动栏********/
+.swiper{
+  width: 96%;
+  padding-bottom: 40rpx;
+}
+
+.item-image{
+width: 100%;
+height: 300rpx;
+background-color: yellowgreen;
+border-radius: 20rpx;
+}
+
+.item-image image{
+width: 100%;
+height: 100%;
+border-radius: 20rpx;
+}
+
+.item-all-board{
+width: 100%;
+height: 600rpx
+}
+.ForumsContainer{
+  width:100%;
+  /* background-color: rgb(210, 221, 210); 
+  border-radius: 40rpx;  */
+  padding: 10rpx 0rpx;
+}
+.ForumsBoard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ForumSummary{
+  width: 96%;
+  height: 200rpx;
+  box-sizing: border-box;
+  padding:10rpx 10rpx 10rpx 25rpx;
+  margin-top: 10rpx;
+  background-color:white ;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 20rpx;
+}
+
+.ForumSummaryLeft{
+width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+
+.ForumTitle{
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.ForumRel{
+  width: 400rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.CreatorInfo{
+  display: flex;
+  flex-direction: row;
+}
+.CreatorName{
+  font-size: 20rpx;
+}
+.ForumViewNub{
+   font-size: 20rpx;
+}
+.ForumCommentNub{
+  font-size: 20rpx;
+}
+.CreatorInfo image{
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+}
+
+.ForumSummaryRight image{
+  width: 200rpx;
+  height: 180rpx;
+
+}
+
+
+/********** searchGroup.wxss *******/
+.searchGroup{
+width: 80%;
+height: 60rpx;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+border-radius: 20rpx;
+margin: 10rpx auto;
+padding: 2rpx 20rpx;
+background-color: #ffff;
+}
+
+.searchIcon{
+flex-basis: 40rpx
+}
+.searchInput{
+min-height: 52rpx;
+height: 52rpx;
+font-size: 28rpx;
+flex: 1
+}
+
+.clearIcon{
+flex-basis: 40rpx
+}

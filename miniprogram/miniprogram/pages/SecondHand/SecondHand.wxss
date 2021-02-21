@@ -1,0 +1,95 @@
+/* pages/SecondHand/SecondHand.wxss */
+@import  "../template/template.wxss";
+
+.searchContainer{
+  width: 100%;
+  display: flex;
+  margin-top: 26rpx;
+  justify-content: center;
+}
+
+.searchGroup{
+  width: 80%;
+  height: 52rpx;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 32rpx;
+  padding: 1px 20rpx;
+  background-color: #d8d6d6;
+}
+
+.searchIcon{
+  flex-basis: 40rpx
+}
+.searchInput{
+  min-height: 52rpx;
+  height: 52rpx;
+  font-size: 28rpx;
+  flex: 1;
+}
+
+
+/*************** 帖子组 ********************/
+.forums-group{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 16rpx 26rpx 0rpx 26rpx ;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+
+.forums-group .forum{
+  width: 300rpx;
+  padding: 10rpx;
+
+
+}
+.forum .goodsInfo{
+  font-size: 30rpx;
+  font-weight: 700;
+
+}
+
+.forum .forumInfo{
+  display: flex;
+  justify-content: space-between;
+  padding: 4rpx 8rpx 8rpx 8rpx;
+  align-items: center;
+}
+
+.forum image{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 15rpx;
+}
+
+.forum text{
+  font-size: 28rpx;
+  font-weight: 700;
+  color: red;
+}
+
+.forumInfo{
+  display: flex;
+  justify-content: space-between;
+}
+.forum-creator{
+  display: flex;
+
+}
+
+.forum-creator image{
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.forum-creator-name{
+  font-size: 26rpx;
+  color: #656565;
+  font-weight: 500;
+  margin-right:10rpx; 
+}

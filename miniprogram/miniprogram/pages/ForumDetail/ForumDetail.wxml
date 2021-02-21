@@ -1,0 +1,26 @@
+<!--pages/SecondHandDetail/SecondHandDetail.wxml-->
+<view class="Container">
+    <view class="ForumTitle">次新车跳楼大甩卖</view>
+    <view class="ForumCreatorInfo">
+      <image src="../../images/TestPic/header.jpg"></image>
+      <view class="forum-creator-name">wojiaoMk</view>
+    </view>
+    <view class="ForumContent">
+      <view class="Price">价格 ¥100000</view>
+      <view class="ForumTxt">18年6月入手，18000公里，次顶配，平时开的很少，保险已买，可刀</view>
+      <view class="ForumImage">图片描述</view>
+    </view>
+</view>
+<view class="BottomGroup">
+      <view class="BottomIcon">
+        <image src="../../images/TestPic/comment.png"></image>
+        <text>评论</text>
+      </view>
+      <view class="ContactCreator" bindtap="ContactCreator">
+        联系他/她
+      </view>
+      <view class="BottomIcon">
+        <image src="../../images/TestPic/share.png"></image>
+        <text>分享</text>
+      </view>
+    </view>

@@ -1,0 +1,91 @@
+<!--pages/SecondHand/SecondHand.wxml-->
+<import src= "../template/template" />
+<template is ="FieldLable"></template>
+
+
+<!--*************** 搜索栏********************-->
+<view class="searchContainer">  
+  <view class="searchGroup">
+    <input class="searchInput" placeholder="搜索" value="{{value}}"></input>
+    <icon type="search" class="searchIcon" size="40rpx"></icon>
+  </view>
+</view> 
+
+<!--*************** 主题组展示 ********************-->
+<view class="forums-group">
+  <navigator url="../ForumDetail/ForumDetail" open-type="navigate" hover-class="none">
+    <view class="forum">
+        <image src="../../images/TestPic/car.jpg"></image>
+        <view class="goodsInfo">次新车跳楼大甩卖</view>
+        <view class="forumInfo">
+          <text class="price">¥100000</text>
+          <view class="forum-creator">
+              <view class="forum-creator-name">wojiaoMk</view>
+              <image src="../../images/TestPic/header.jpg"></image>
+          </view>    
+        </view>
+    </view>
+  </navigator>
+
+        <view class="forum">
+        <image src="../../images/TestPic/wire.jpg"></image>
+        <view class="goodsInfo">茅台5年陈酿</view>
+        <view class="forumInfo">
+          <text class="price">¥2999</text>
+          <view class="forum-creator">
+              <view class="forum-creator-name">wojiaoMk</view>
+              <image src="../../images/TestPic/header.jpg"></image>
+          </view>    
+        </view>
+    </view>
+
+    <view class="forum">
+        <image src="../../images/TestPic/computer.jpg"></image>
+        <view class="goodsInfo">才用两年，联想G450系列</view>
+        <view class="forumInfo">
+          <text class="price">¥1900</text>
+          <view class="forum-creator">
+              <view class="forum-creator-name">wojiaoMk</view>
+              <image src="../../images/TestPic/header.jpg"></image>
+          </view>    
+        </view>
+    </view>
+
+    <view class="forum">
+        <image src="../../images/TestPic/netcable.jpg"></image>
+        <view class="goodsInfo">淘宝买多了，超五类网线3米</view>
+        <view class="forumInfo">
+          <text class="price">90</text>
+          <view class="forum-creator">
+              <view class="forum-creator-name">wojiaoMk</view>
+              <image src="../../images/TestPic/header.jpg"></image>
+          </view>    
+        </view>
+    </view>
+    <view class="forum">
+        <image src="../../images/TestPic/house.jpg"></image>
+        <view class="goodsInfo">急用钱，学区房变现，采光优良，周边配套成熟</view>
+        <view class="forumInfo">
+          <text class="price">¥4000000</text>
+          <view class="forum-creator">
+              <view class="forum-creator-name">wojiaoMk</view>
+              <image src="../../images/TestPic/header.jpg"></image>
+          </view>    
+        </view>
+    </view>
+    <view class="forum">
+        <image src="../../images/TestPic/bike.jpg"></image>
+        <view class="goodsInfo">18年5月入手，因工作变动闲置无用，低价甩卖，可刀</view>
+        <view class="forumInfo">
+          <text class="price">¥100</text>
+          <view class="forum-creator">
+              <view class="forum-creator-name">wojiaoMk</view>
+              <image src="../../images/TestPic/header.jpg"></image>
+          </view>    
+        </view>
+    </view>
+    
+</view>
+
+<!--***************导航栏********************-->
+<template is ="tabBar"></template>

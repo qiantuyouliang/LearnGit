@@ -1,0 +1,54 @@
+<!--pages/Square/Square.wxml-->
+<import src= "../template/template.wxml" />
+<template is ="FieldLable"></template>
+<view class="Forums_container" style="width:100%;background-color: rgb(210, 221, 210);border-radius: 40rpx; padding: 10rpx 0rpx;">
+    <view class="searchGroup">
+      <icon type="search" class="searchIcon" size="40rpx"></icon>
+      <input class="searchInput" placeholder="搜索" value="{{value}}"></input>
+      <icon type="clear" class="clearIcon" size="40rpx" bind:tap="onClearEvent"></icon>
+    </view>
+    <view class="ForumsList"  style = "margin-top:10rpx; ">
+        <button class="loading" loading>正在刷新...</button>
+        <view class="ForumSummary" id="1">
+          <view class="ForumInfo" >
+            <view class="ForumTitle">
+              小区物业太差劲了
+            </view>
+            <view class="CreatorInfo">
+              <image src="../../images/TestPic/UserHeader.jpeg"></image>
+            </view>
+          </view>
+          <view class="ForumImage">
+            <image src="../../images/TestPic/wuye.jpg"></image>
+          </view>
+        </view>
+        <view class="ForumSummary" id="2">
+          <view class="ForumInfo" >
+            <view class="ForumTitle">
+              垃圾分类是否真的有必要
+            </view>
+            <view class="CreatorInfo">
+              <image src="../../images/TestPic/UserHeader.jpeg"></image>
+            </view>
+          </view>
+          <view class="ForumImage">
+            <image src="../../images/TestPic/lajifenlei.jpg"></image>
+          </view>
+        </view>
+        <view class="ForumSummary" id="3">
+          <view class="ForumInfo" >
+            <view class="ForumTitle">
+              垃圾分类是否真的有必要
+            </view>
+            <view class="CreatorInfo">
+              <image src="../../images/TestPic/UserHeader.jpeg"></image>
+            </view>
+          </view>
+          <view class="ForumImage">
+            <image src="../../images/TestPic/lajifenlei.jpg"></image>
+          </view>
+        </view>
+    </view>
+  </view>
+
+  <template is ="tabBar"></template>
