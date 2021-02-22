@@ -37,10 +37,10 @@ height: 600rpx
   align-items: center;
 }
 .ForumSummary{
-  width: 96%;
+  width: 740rpx;
   height: 200rpx;
   box-sizing: border-box;
-  padding:10rpx 10rpx 10rpx 25rpx;
+  padding:10rpx 10rpx 10rpx 10rpx;
   margin-top: 10rpx;
   background-color:white ;
   display: flex;
@@ -51,6 +51,7 @@ height: 600rpx
 .ForumSummaryLeft{
 width: 70%;
 display: flex;
+padding-left: 20rpx;
 flex-direction: column;
 justify-content: space-between;
 

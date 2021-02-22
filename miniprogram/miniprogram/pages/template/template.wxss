@@ -28,9 +28,62 @@
   text-align: center;
 }
 
+/********** templates ForumSample.wxss *******/
+.ForumSummary{
+  width: 740rpx;
+  height: 200rpx;
+  box-sizing: border-box;
+  padding:10rpx 10rpx 10rpx 10rpx;
+  margin-top: 10rpx;
+  background-color:white ;
+  display: flex;
+  justify-content:space-between;
+  border-radius: 20rpx;
+}
 
+.ForumSummaryLeft{
+width: 70%;
+display: flex;
+padding-left: 20rpx;
+flex-direction: column;
+justify-content: space-between;
 
+}
 
+.ForumTitle{
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.ForumRel{
+  width: 400rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.CreatorInfo{
+  display: flex;
+  flex-direction: row;
+}
+.CreatorName{
+  font-size: 20rpx;
+}
+.ForumViewNub{
+   font-size: 20rpx;
+}
+.ForumCommentNub{
+  font-size: 20rpx;
+}
+.CreatorInfo image{
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+}
+
+.ForumSummaryRight image{
+  width: 200rpx;
+  height: 180rpx;
+
+}
 /********** templates Tabbar.wxss *******/
 .tabBar{
   width:756rpx;

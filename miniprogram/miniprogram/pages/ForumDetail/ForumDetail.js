@@ -16,7 +16,7 @@ Page({
   },
   ContactCreator:function(){
     wx.switchTab({
-      url: '../index/index',
+      url: '../Messages/Messages',
     })
   },
 
