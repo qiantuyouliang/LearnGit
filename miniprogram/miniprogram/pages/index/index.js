@@ -17,7 +17,11 @@ Page({
       })
       return
     }
-
+    //获取后台资源输出
+      // const db = wx.cloud.database();
+      // db.collection('Forum').get().then(res =>{
+      //   console.log(res);
+      // })
     // 获取用户信息
     wx.getSetting({
       success: res => {
